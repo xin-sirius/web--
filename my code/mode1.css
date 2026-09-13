@@ -17,7 +17,7 @@ body {
 }
 
 /* 名片外层容器 */
-.card‑wrap {
+.card-wrap {
     padding: 20px;
 }
 
@@ -26,10 +26,10 @@ body {
     width: 340px;
     background-color: #15304e;
     /* 12px圆角 */
-    border‑radius: 12px;
+    border-radius: 12px;
     /* 柔和阴影 */
-    box‑shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-    text‑align: center;
+    box-sizing: 0 4px 16px rgba(0, 0, 0, 0.08);
+    text-align: center;
     padding: 36px 24px;
     /* 过渡动画：hover上浮效果 */
     transition: transform 0.3s ease, box‑shadow 0.3s ease;
@@ -38,12 +38,12 @@ body {
 /* 鼠标悬浮：卡片轻微上浮，阴影加深 */
 .personal‑card:hover {
     transform: translateY(-6px);
-    box‑shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    box-sizing: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
 /* 圆形头像容器 */
 .avatar {
-    margin‑bottom: 40px;
+    margin-top: 40px;
 }
 
 .avatar img {
@@ -73,7 +73,7 @@ body {
 
 /* 联系方式区域 */
 .contact p {
-    font‑size: 14px;
+    font-size: 14px;
     color: #444444;
-    line‑height: 1.8;
+    line-height: 1.8;
 }
